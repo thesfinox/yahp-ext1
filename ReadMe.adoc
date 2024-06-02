@@ -1,0 +1,58 @@
+:Author: thesfinox93
+:Email: riccardo.finotello@gmail.com
+:Date: 27/05/2024
+:Revision: v1.0.0
+:License: GNU General Public License v3.0
+
+= Yet Another Hydroponics Project (YAHP)
+
+I am quite often thoughtless when it comes to taking care of plants.
+This is why I started to create something using **Arduino**.
+_Yet Another Hydroponics Project_ (YAHP) is an attempt at remote controlling the status of a small greenhouse, and at providing automatic irrigation and lighting.
+
+This is a simple extension to the larger YAHP project (https://github.com/thesfinox/yahp).
+
+== Step 1: Installation
+
+The development kit used for this project is a **ESP32 Dev Module**, and the documentation refers to that module.
+However, any ESP32 board should do the trick.
+
+....
+This is an IoT project: you need to provide the secrets for the connection!
+....
+
+=== Folder structure
+
+....
+  yahp                    => Arduino sketch folder
+  ├── yahp_ext1.ino       => main Arduino file
+  ├── thingProperties.png => IoT definitions
+  └── ReadMe.adoc         => this file
+....
+
+== Step 3: Load the code
+
+Upload the code contained in this sketch on to your board
+
+=== Folder structure
+
+....
+ sketch123                => Arduino sketch folder
+  ├── sketch123.ino       => main Arduino file
+  ├── schematics.png      => (optional) an image of the required schematics
+  ├── layout.png          => (optional) an image of the layout
+  └── ReadMe.adoc         => this file
+........
+
+=== License
+This project is released under a GNU General Public License v3.0.
+
+=== Bill of Material
+
+|===
+|Part name             | Quantity        
+|ESP32 Dev Module      | 1        
+|1 red LED             | 1      
+|1 green LED           | 1
+|Soil moisture sensors | 1
+|===
